@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import "./App.css";
 import heroImg from "./assets/hero-image.jpg";
+import avatar from "./assets/avatar.jpg";
 
 class App extends Component {
   render() {
-    return (
-      <div className="App">
+    return <div className="App">
         <header className="App-header">
           <div className="header-logo">
             <div id="square" />
@@ -31,28 +31,29 @@ class App extends Component {
         <hr className="nav-break" />
         <div id="hero">
           <div className="hero-news">
-            <h1>This is serious</h1>
+            <h1 className="hero-title">
+              The United States to switch the currency to Bitcoin.
+            </h1>
             <img className="hero-image" src={heroImg} />
             <div className="hero-news-pinned-wrap">
               <ul className="hero-news-pinned">
                 <li>
-                  In hac habitasse platea dictumst. Vivamus adipiscing fermentum
-                  quam volutpat aliquam.
+                  In hac habitasse platea dictumst. Vivamus adipiscing
+                  fermentum quam volutpat aliquam.
                 </li>
                 <li>
-                  In hac habitasse platea dictumst. Vivamus adipiscing fermentum
-                  quam volutpat aliquam.
+                  In hac habitasse platea dictumst. Vivamus adipiscing
+                  fermentum quam volutpat aliquam.
                 </li>
                 <li>
-                  In hac habitasse platea dictumst. Vivamus adipiscing fermentum
-                  quam volutpat aliquam.
+                  In hac habitasse platea dictumst. Vivamus adipiscing
+                  fermentum quam volutpat aliquam.
                 </li>
               </ul>
             </div>
           </div>
         </div>
-      </div>
-    );
+      </div>;
   }
 }
 

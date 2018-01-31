@@ -1,10 +1,21 @@
 body {
   margin: 0;
-  padding: 0;
+  padding: 2em;
   font-family: sans-serif;
 }
-
+p {
+  font-family: times, Times New Roman, times-roman, georgia, serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #444;
+}
+h2 {
+  font-size: 24px;
+}
+h3 {
+  font-family: times, Times New Roman, times-roman, georgia, serif;
+  font-size: 18px;
+}
 hr {
   border-top: 1px solid #8c8b8b;
 }
-
